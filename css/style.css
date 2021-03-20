@@ -294,6 +294,10 @@ a:hover{
 .service {
 	text-align: left;
 }
+.git-link{
+	text-decoration: none;
+	color: black;
+}
 
 .service small {
 	font-size: 12px;
