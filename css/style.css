@@ -551,9 +551,7 @@ a:hover{
 .product-page{
 	background-color: gray;
 	display: inline-block;
-    margin-top: 65px;
-	margin-left: 550px;
-    margin-bottom: 30px;
+	margin: 65px auto 30px;
     font-size: 35px;
     font-weight: 900;
     padding: 10px 80px;
