@@ -1,135 +1,171 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-  <meta charset="utf-8">
-  <title>Yuki_Echigawa.Portfolio</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
-  <link href="https://fonts.googleapis.com/css?family=Oswald:400,300,700|Lato:400,700" rel="stylesheet">
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/fancybox/fancybox.css" rel="stylesheet">
-  <link href="css/product.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Yuki_Echigawa.Portfolio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,300,700|Lato:400,700" rel="stylesheet">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/fancybox/fancybox.css" rel="stylesheet">
+    <link href="css/product.css" rel="stylesheet">
 
 </head>
+
 <body class="skill-back">
-          <ul class="sub-menu">
-            <li class="menu-item"><a href="index.html" class="menu-item-link">Home</a></li>
-            <li class="menu-item"><a href="index.html" class="menu-item-link">About</a></li>
-            <li class="menu-item"><a href="index.html" class="menu-item-link">Portfolio</a></li>
-            <li class="menu-item"><a href="index.html" class="menu-item-link">Contact</a></li>
-           </ul>
+    <ul class="sub-menu">
+        <li class="menu-item"><a href="index.html" class="menu-item-link">Home</a></li>
+        <li class="menu-item"><a href="index.html" class="menu-item-link">About</a></li>
+        <li class="menu-item"><a href="index.html" class="menu-item-link">Portfolio</a></li>
+        <li class="menu-item"><a href="index.html" class="menu-item-link">Contact</a></li>
+    </ul>
 
-           <div class="skill-gaiyou">
-            <div class="skill-gaiyou-name">作品一覧</div>
-          </div>
-          <div class="product-list">
-              <div class="side-text"><span style="color:#ff0000;">【渾身】</span>筋トレ愛好会
-                  <div class="side-sub-text">作成背景：上長が社内部活の「筋トレ愛好会」の部長で、学習を進めていると話した所Slackでの投稿だけでなく、部活が活発化するツールを作って欲しいと依頼を受け作成。Rubyの理解を深めるために作成するアプリを思案していた所だったため快諾。自身のSlackに通知が来るようにGASで連携しました。</div>
-                  <div class="use-sub-text">言語：Ruby on rails<br>インフラ：AWS<br>製作期間：約1ヶ月<br>機能：投稿機能/ログイン機能/検索機能/コメント機能</div>
-                  <a href="http://54.168.96.109:3000/"  target="_blank"div class="product-page2">リンクはこちら</div></a>
-                  <img src ="img/筋トレ愛好会.png" class="side-image">
-              </div>
-          </div>
+    <div class="skill-gaiyou">
+        <div class="skill-gaiyou-name">作品一覧</div>
+    </div>
 
-          <div class="product-list">
-            <div class="side-text">コインワーク
-                <div class="side-sub-text">ぐるなびを参考に作成しました。フルリモートになり、関西でコワーキングスペースを探すサイトがなかったため、<br>自分で調べたおすすめスペースを集めてまとめサイトを作成しています。</div>
-                <div class="use-sub-text">言語：Ruby on rails<br>インフラ：AWS<br>製作期間：約2週間<br>機能：投稿機能/ログイン機能/ユーザー機能/コメント機能/パンくず/検索機能</div>
-                <a href="http://35.74.16.45:3000/" target="_blank" div class="product-page2">リンクはこちら</div></a>
-                <img src ="img/スクリーンショット 2021-04-12 23.15.14.png" class="side-image">
+    <div class="product-list">
+        <div class="side-text"><span class="text-red">【渾身】</span>筋トレ愛好会
+            <div class="side-sub-text">
+                上長が社内部活「筋トレ愛好会」部長で、学習を進めていると話した所Slackでの投稿だけでなく、
+部活が活発化するツールを作って欲しいと<br>依頼を受け作成。
+複数回の修正と要望を取り入れ完成しました。
             </div>
-        </div>
+            <div class="use-sub-text">言語：Ruby on rails<br>インフラ：AWS<br>製作期間：1ヶ月<br>機能：投稿機能/ログイン機能/検索機能/コメント機能</div>
+            <a href="http://54.168.96.109:3000/" target="_blank" div class="product-page2">サイトはこちら
+        </div></a>
+        <img src="img/筋トレ愛好会.png" class="side-image">
+    </div>
+    </div>
+    <div class="product-list">
+        <div class="side-text">タスクチェッカー
+            <div class="side-sub-text">Trelloのように、タスクの追加から移動までワンビューで行えるアプリを作りたくReactの本等で調べながら実装しました。<br>【現状】mimemagicが制作中に非公開になったため、Railsのverを下げるなどして依存関係修正中。</div>
+            <div class="use-sub-text">言語：Ruby on rails/Type script/React<br>インフラ：Git<br>製作期間：2週間<br>機能：投稿機能/タスク移動/削除機能/当日変色</div>
+            <a href="https://github.com/echigawa0921/task_checker" target="_blank" div class="product-page2">サイトはこちら
+            </div></a>
+        <img src="img/タスクチェッカー.png" class="side-image">
 
-          <div class="product-list">
-            <div class="side-text">タスクチェッカー
-                <div class="side-sub-text">動きがあるページを作りたく、Reactの勉強のためアプリを作成。<br>Dockerでサーバーを用いてサイトを構築しました。<br>【現状】デプロイ対応中です。<br>導入していたmimemagicが公開停止になり、対応しているrailsとの依存関係の修復に時間がかかっています。</div>
-                <div class="use-sub-text">言語：Ruby on rails/Type script/React<br>インフラ：-<br>製作期間：約1ヶ月<br>機能：投稿機能/タスク移動/削除機能/当日変色</div>
-                <a href="https://github.com/echigawa0921/task_checker"  target="_blank"div class="product-page2">GitHubリンク</div></a>
-                <img src ="img/タスクチェッカー.png" class="side-image">
+    </div>
+
+    <div class="product-list">
+        <div class="side-text"><span class="text-lime">LINE</span>bot（天気予報）
+            <div class="side-sub-text">SlackとのGAS連携完了後、プログラミングでのbot作成にはまり、より身近なLINEbot作成にチャレンジしました。気象庁の天気予報情報を XML
+                で配信している「drk7.jp」からデータを取得し、テキストで今日・明日・明後日と入力すると天気予報がチャットで返信が来る。</div>
+            <div class="use-sub-text">言語：Ruby on rails<br>インフラ：-<br>製作期間：1日<br>機能：チャット機能/天気予報周知</div>
+            <a href="https://lin.ee/EhSsVBB" target="_blank" div class="product-page2">LINEはこちら
+        </div></a>
+        <img src="img\1621396308436.jpg" class="side-image">
+    </div>
+    
+    <div class="product-list">
+        <div class="side-text">【おすすめ】コインワーク
+            <div class="side-sub-text">ぐるなびを参考に作成しました！ フルリモートになり、関西でコワーキングスペースを探すサイトがなく、不便に感じていたことから制作。
+                <br>＊自分で調べたおすすめスペースを集めて掲載してます。</div>
+            <div class="use-sub-text">言語：Ruby on rails<br>インフラ：AWS<br>製作期間：2週間<br>機能：検索機能/投稿機能/ログイン/ユーザー管理/コメント機能/パンくず</div>
+            <a href="http://35.74.16.45:3000/" target="_blank" div class="product-page2">サイトはこちら
+        </div></a>
+        <img src="img/コインワーク.png" class="side-image">
+    </div>
+    <div class="product-list">
+        <div class="side-text">じゃんけんアプリ
+            <div class="side-sub-text">React/Type scriptの勉強のため作成。React学習のため作成しました。<br>
+                画面遷移なしで、結果が表示されます。
+                自分の手を入力すると<br>相手と勝敗がつき、終了後戦歴が表示されます</div>
+            <div class="use-sub-text">言語：Type script<br>インフラ：Git<br>製作期間：3日<br>機能：更新なしでゲームが進む/アラートにて結果報告</div>
+            <a href="https://master.dssb0kkyf0mh.amplifyapp.com/" target="_blank" div class="product-page2">サイトはこちら
+        </div></a>
+        <img src="img/じゃんけん.png" class="side-image">
+    </div>
+
+    </div>
+    <div class="product-list">
+        <div class="side-text">三目並べ（vs越川）
+            <div class="side-sub-text">じゃんけんアプリ同様Reactの学習のため作成を始めました。
+                <br>3つ角を先に取った方が勝ちという単純明快なゲームです！
+                <br>ただ、作るだけではおもしろくないため、vs作成者になっています！！</div>
+            <div class="use-sub-text">言語：Type script<br>インフラ：Git<br>製作期間：3日<br>機能：ユーザー表示/画面遷移なしでゲームが進む</div>
+            <a href="https://master.d3ecvcqyj60hju.amplifyapp.com/" target="_blank" div class="product-page2">サイトはこちら
+        </div></a>
+        <img src="img/三目並べ.png" class="side-image">
+    </div>
+
+    </div>
+    <div class="product-list">
+        <div class="side-text">フリマアプリ
+            <div class="side-sub-text">「某フリマアプリ」を模造したアプリを制作しました。<br>
+                こだわったポイントはPay.jpを実装し購入ができるようにしました。<br>
+                購入後「売り切れ表示」になるようにしました！</div>
+            <div class="use-sub-text">言語：Ruby on rails<br>インフラ：Heroku<br>製作期間：1ヶ月<br>機能：商品一覧/購入(Pay.jp)/ユーザー機能/コメント機能</div>
+            <a href="https://furima-29329.herokuapp.com/" target="_blank" div class="product-page2">サイトはこちら
+        </div></a>
+        <img src="img/フリマアプリ.png" class="side-image">
+    </div>
+
+    </div>
+    <div class="product-list">
+        <div class="side-text">ノーコード（サイト作成）
+            <div class="side-sub-text">
+                インフルエンサー活動をしている友人よりサイトを作成してほしいと相談があり、作成しました。一時YouTubeなどで話題になったノーコードがどういったものかを知るためノーコードでサイトを作成しました。また、SEOも意識し登録をしました。
             </div>
+            <div class="use-sub-text">言語：ノーコード<br>インフラ：-<br>製作期間：3週間<br>機能：メンバー紹介ページ/メンバーSNSリンク</div>
+            <a href="https://www.world-wide-wave.com/" target="_blank" div class="product-page2">サイトはこちら
+        </div></a>
+        <img src="img/W.W.W.png" class="side-image">
+    </div>
 
-        </div>
-        <div class="product-list">
-            <div class="side-text">じゃんけんアプリ
-                <div class="side-sub-text">React/Type scriptの勉強のため作成。アラートによる戦績報告と自分の手を選択すると自動で相手が手を出し、勝敗が決する。</div>
-                <div class="use-sub-text">言語：Type script<br>インフラ：Git<br>製作期間：約2日<br>機能：更新なしでゲームが進む/アラートにて結果報告</div>
-                <a href="https://master.dssb0kkyf0mh.amplifyapp.com/" target="_blank" div class="product-page2">リンクはこちら</div></a>
-                <img src ="img/じゃんけん.png" class="side-image">
-            </div>
+    </div>
+    <div class="product-list">
+        <div class="side-text">チャットアプリ<span style="background-color:#800080"><span class="text-slack">（Slack風）</span></span>
+            <div class="side-sub-text">コミュニケーションチャットツールSlackを意識して作成しました。<br>フロントに即時チャットが表示されるように作成しました。<br>2つページを開くとそれぞれのアカウントとトークができます！</div>
+            <div class="use-sub-text">言語：Ruby on rails<br>インフラ：AWS<br>製作期間：2週間<br>機能：ルーム作成/チャット機能/ログイン機能/検索機能/コメント機能</div>
+            <a href="http://35.72.134.150:3000/" target="_blank" div class="product-page2">サイトはこちら
+        </div></a>
+        <img src="img/チャットアプリ.png" class="side-image">
+    </div>
+    <div class="product-list">
+        <div class="side-text">まこなり社長Inside Stories（Node.js）
+            <div class="side-sub-text">弊社代表のマコなり社長が運営しているInside StoriesがNode.jsで作られていると聞き。
+                自分でも体現できるのではと考え調べながらデザインとコンテンツは真似ず、中身のシステムだけ再現しました。</div>
+            <div class="use-sub-text">言語：React<br>インフラ：Netlify<br>製作期間：1週間<br>機能：ルーム作成/アカウント作成/ログイン機能/</div>
+            <a href="https://vigilant-booth-44a5cf.netlify.app/" target="_blank" div class="product-page2">サイトはこちら
+        </div></a>
+        <img src="img/スクリーンショット 2021-05-18 18.42.53.png" class="side-image">
+    </div>
 
-        </div>
-        <div class="product-list">
-            <div class="side-text">三目並べ（vs越川）
-                <div class="side-sub-text">じゃんけんアプリ同様Reactの学習を進めようとしたところ、<br>ヒットした公式サイトにて学習。</div>
-                <div class="use-sub-text">言語：Type script<br>インフラ：Git<br>製作期間：2日<br>機能：ユーザー表示/画面遷移なしでゲームが進む</div>
-                <a href="https://master.d3ecvcqyj60hju.amplifyapp.com/" target="_blank" div class="product-page2">リンクはこちら</div></a>
-                <img src ="img/三目並べ.png" class="side-image">
-            </div>
+    
 
-        </div>
-        <div class="product-list">
-            <div class="side-text">フリマアプリ
-                <div class="side-sub-text">テックキャンプの最終課題として、「某フリマアプリ」<br>を模造したアプリを作成しました。</div>
-                <div class="use-sub-text">言語：Ruby on rails<br>インフラ：Heroku<br>製作期間：約1ヶ月<br>機能：商品一覧/購入(Pay.jp)/ユーザー機能/コメント機能</div>
-                <a href="https://furima-29329.herokuapp.com/" target="_blank" div class="product-page2">リンクはこちら</div></a>
-                <img src ="img/フリマアプリ.png" class="side-image">
-            </div>
 
-        </div>
-        <div class="product-list">
-            <div class="side-text">ノーコード（サイト作成）
-                <div class="side-sub-text">インフルエンサー活動をしている友人よりサイトを作成してほしいと相談があり、作成しました。一時YouTubeなどで話題になったノーコードがどういったものかを知るためノーコードでサイトを作成しました。また、SEOも意識し登録をしました。</div>
-                <div class="use-sub-text">言語：ノーコード<br>インフラ：-<br>製作期間：約1ヶ月<br>機能：メンバー紹介ページ/メンバーSNSリンク</div>
-                <a href="https://www.world-wide-wave.com/" target="_blank" div class="product-page2">リンクはこちら</div></a>
-                <img src ="img/W.W.W.png" class="side-image">
-            </div>
+    </div>
 
-        </div>
-        <div class="product-list">
-            <div class="side-text">チャットアプリ（Slack風）
-                <div class="side-sub-text">テックキャンプの課題として作成。Slackを意識した、フロントに即時チャットが<br>表示されるように作成しました。</div>
-                <div class="use-sub-text">言語：Ruby on rails<br>インフラ：AWS<br>製作期間：1週間<br>機能：ルーム作成/チャット機能/ログイン機能/検索機能/コメント機能</div>
-                <a href="http://35.72.134.150:3000/" target="_blank" div class="product-page2">リンクはこちら</div></a>
-                <img src ="img/チャットアプリ.png" class="side-image">
-            </div>
-        </div>
+    <section id="contact" name="contact"></section>
+    <div class="sep contact" data-stellar-background-ratio="0.5"></div>
 
-        <div class="product-list">
-            <div class="side-text">Maconari inside_Stories
-                <div class="side-sub-text">弊社株式会社divの真子代表が運営する<a href="https://is.makonari.com/" ,style={{ rel="nofollow noopener noreferrer" }}>inside Stories（リンク）</a>を実際に使ったことがあることから利便性に共感し、システムをNode.jsの学習のため作成しました。<br>また、ログインなどの認証に「Firebase」を初めて導入しました。</div>
-                <div class="use-sub-text">言語：Next.js<br>インフラ：netlify<br>製作期間：約2日<br>機能：アカウント作成/ログイン機能/パスワードリセット/Firebaseでのデータ管理</div>
-                <a href="https://vigilant-booth-44a5cf.netlify.app" target="_blank" div class="product-page2">リンクはこちら</div></a>
-                <img src ="img/スクリーンショット 2021-04-13 20.48.57.png" class="side-image">
-            </div>
-        </div>
-
-          <section id="contact" name="contact"></section>
-          <div class="sep contact" data-stellar-background-ratio="0.5"></div>
-        
-          <div id="contactwrap">
-            <div class="container">
-              <div class="row">
+    <div id="contactwrap">
+        <div class="container">
+            <div class="row">
                 <div class="col-lg-6">
-                  <p>CONTACT</p>
-                  <p>越川　雄貴</p><br>
-                  <p>
-                    <small>電話：090-5679-2109<br/>
-                                メール：mh.uc.0921@gmail.com<br/>
-                    Github：https://github.com/echigawa0921<br/>
-                            </p>
-        
-                        </div>
-        
-          <script src="lib/jquery/jquery.min.js"></script>
-          <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-          <script src="lib/php-mail-form/validate.js"></script>
-          <script src="lib/easing/easing.min.js"></script>
-          <script src="lib/stellar/stellar.min.js"></script>
-          <script src="lib/fancybox/fancybox.js"></script>
-        
-          <!-- Template Main Javascript File -->
-          <script src="js/main.js"></script>
-      </div>
+                    <p>CONTACT</p>
+                    <p>越川　雄貴</p><br>
+                    <p>
+                        <small>電話：090-5679-2109<br />
+                            メール：mh.uc.0921@gmail.com<br />
+                            Github：https://github.com/echigawa0921<br />
+                            wantedly：https://www.wantedly.com/id/yuki_Echigawa9<br />
+                    </p>
+
+                </div>
+
+                <script src="lib/jquery/jquery.min.js"></script>
+                <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+                <script src="lib/php-mail-form/validate.js"></script>
+                <script src="lib/easing/easing.min.js"></script>
+                <script src="lib/stellar/stellar.min.js"></script>
+                <script src="lib/fancybox/fancybox.js"></script>
+
+                <!-- Template Main Javascript File -->
+                <script src="js/main.js"></script>
+            </div>
 </body>
