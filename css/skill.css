@@ -77,6 +77,7 @@ a:hover{
 }
 .sub-inner{
 	display: flex;
+  margin: auto;
 	margin-top: 80px;
     background-color:#EEEEEE;
     flex-wrap: wrap;
