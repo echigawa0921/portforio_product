@@ -241,6 +241,9 @@ a:hover{
     margin-left: 20px;
     margin-top: 30px;
 }
+.side-image2{
+  padding-left: 180px;
+}
 .side-text{
     margin: 60px;
     width: 600px;
@@ -270,4 +273,14 @@ a:hover{
 }
 .sep {
 	margin-bottom: 100px;
+}
+.text-red{
+  color: red;
+}
+.text-lime{
+  color: lime;
+}
+.text-slack{
+  color: white;
+  font-weight: 600;
 }
