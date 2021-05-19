@@ -45,13 +45,6 @@ a:hover{
     border-radius: 24px;
     padding: 12px 30px;
   }
-  .skill-gaiyou{
-    width: auto;
-    padding-top: 145px;
-    font-size: 40px;
-    text-align: center;
-    border-bottom: 3px  gray;
-  }
   .skill-gaiyou-name{
     font-size: 60px;
     text-align: center;
@@ -61,6 +54,9 @@ a:hover{
     font-weight: bold;
     margin: auto;
     margin-bottom: 50px;
+  }
+  .skill-ichiran-name{
+    font-size:20px;
   }
   .arm-page-heading{
     font-size: 30px;
