@@ -280,3 +280,7 @@ a:hover{
 .text-lime{
   color: lime;
 }
+.text-slack{
+  color: white;
+  font-weight: 600;
+}
