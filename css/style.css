@@ -581,3 +581,26 @@ a:hover{
 	font-size: 22px;
 	font-weight: 500;
 }
+
+
+@media screen and (max-width: 640px) {
+	h1{
+		color: black;
+    padding-bottom: 30px;
+    letter-spacing: 8px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+    height: 570px;
+	}
+	.product-page{
+		background-color: gray;
+		display: inline-block;
+		margin-top: 65px;
+			font-size: 35px;
+			font-weight: 900;
+			padding: 10px 80px;
+			color: white;
+			border-radius: 22px;
+	}
+}
