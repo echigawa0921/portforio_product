@@ -11,7 +11,7 @@
 
 # 見本
 https://echigawa0921.github.io/portforio_product/
-https://user-images.githubusercontent.com/69971834/121775998-955fa000-cbc5-11eb-8fda-7450256380db.mp4
+<img width="800" alt="スクリーンショット 2021-06-12 21 22 58" src="https://user-images.githubusercontent.com/69971834/121775739-609f1900-cbc4-11eb-87b9-dbe9f7fb2cd7.png">
 
 # 作成者
 yuki.Echigawa
