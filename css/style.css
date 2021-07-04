@@ -1,3 +1,21 @@
+.skill-back{
+	width: 90%;
+}
+dl {
+	background-color: #eee;
+	padding: 25px;
+	width: 850px;
+	margin: auto;
+	color: #303641;
+  }
+
+.information-tag {
+	display: flex;
+	width: 600px;
+	font-size: 17px;
+	margin: auto;
+	color: #303641;
+}
 .menu {
 	position: fixed;
 	right: -200px;
@@ -294,11 +312,6 @@ a:hover{
 .service {
 	text-align: left;
 }
-.git-link{
-	text-decoration: none;
-	color: white;
-	font-size: 22px;
-}
 
 .service small {
 	font-size: 12px;
@@ -575,10 +588,44 @@ a:hover{
 	margin-top: 20px;
 	margin-left: 300px;
 }
+.news-text{
+	font-family: "Oswald", sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	line-height: 40px;
+	text-decoration: none;
+	color: black;
+	margin-top: 20px;
+	margin-left: 350px;
+}
 
 .text22{
 	text-align: center;
 	margin-top: 20px;
 	font-size: 22px;
 	font-weight: 500;
+}
+
+
+@media screen and (max-width: 640px) {
+	h1{
+		color: black;
+    padding-bottom: 30px;
+    letter-spacing: 8px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+    height: 570px;
+	}
+	.product-page{
+		background-color: gray;
+		display: inline-block;
+		margin-top: 65px;
+			font-size: 35px;
+			font-weight: 900;
+			padding: 10px 80px;
+			color: white;
+			border-radius: 22px;
+	}
 }
